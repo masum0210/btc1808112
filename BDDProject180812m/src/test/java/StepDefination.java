@@ -51,7 +51,7 @@ public class StepDefination {
 	@When("^user type \"([^\"]*)\" on password box$")
 	public void user_type_on_password_box(String arg1) throws Throwable {
 		dr.findElement(By.id("password")).sendKeys(arg1);
-		dr.quit();
+		
 	}
 
 
